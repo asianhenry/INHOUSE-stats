@@ -1,0 +1,61 @@
+﻿player,game_id,w/l,role,champ,k,d,a,cs,cs/min,dmg,dmg_share,first_blood
+asianhenry,1,w,adc,Ezreal,9,6,14,213,5.59,33340,28.09,n
+Knacked,1,w,supp,Janna,4,3,27,32,0.84,6487,5.47,n
+TheRealShimmy,1,w,jg,Sejuani,13,8,18,228,5.98,24450,20.60,n
+GF WONT SUPPORT,1,w,mid,Katarina,11,9,19,209,5.49,26592,22.41,n
+Xe0,1,w,top,Kennen,5,12,21,196,5.14,27813,23.43,n
+Ass2Malph,1,l,jg,Vi,11,9,12,231,6.06,34596,25.54,n
+GobStopper,1,l,mid,Annie,11,11,11,148,3.88,33714,24.89,n
+Jjjajangmyeon,1,l,adc,Ashe,8,6,11,199,5.22,29031,21.44,y
+Bevo18,1,l,supp,Blitzcrank,3,11,12,31,0.81,10367,7.65,n
+Taxmo,1,l,top,Ornn,5,5,13,208,5.46,27724,20.47,n
+asianhenry,2,w,adc,Ezreal,6,2,5,189,6.78,14444,19.97,n
+TheRealShimmy,2,w,jg,Sejuani,9,0,6,203,7.28,11577,16.01,n
+Bevo18,2,w,supp,Leona,2,1,11,44,1.58,4364,6.04,n
+Xe0,2,w,mid,LeBlanc,7,2,7,203,7.28,22127,30.60,n
+Ohoii,2,w,top,Akali,9,4,2,194,6.96,19799,27.38,y
+Ass2Malph,2,l,jg,Master Yi,1,7,3,176,6.31,10344,19.05,n
+GobStopper,2,l,adc,Miss Fortune,4,9,2,166,5.95,15153,27.90,n
+Jjjajangmyeon,2,l,top,Malphite,1,6,3,150,5.38,10348,19.06,n
+Knacked,2,l,supp,Taric,2,4,3,31,1.11,3551,6.54,n
+GF WONT SUPPORT,2,l,mid,Malzahar,1,7,2,182,6.53,14907,27.45,n
+asianhenry,3,l,adc,Miss Fortune,9,5,6,257,7.15,33830,30.10,n
+TheRealShimmy,3,l,jg,Jarvan IV,0,9,16,157,4.37,8762,7.80,n
+GF WONT SUPPORT,3,l,mid,Katarina,8,12,9,148,4.12,20997,18.68,n
+Bevo18,3,l,supp,Brand,3,11,9,47,1.31,21281,18.94,n
+Ohoii,3,l,top,Akali,6,5,3,235,6.54,27513,24.48,n
+Ass2Malph,3,w,jg,Hecarim,8,4,14,267,7.43,25540,23.16,n
+Jjjajangmyeon,3,w,supp,Alistar,3,7,27,34,0.95,11192,10.15,y
+Knacked,3,w,top,Poppy,4,2,7,171,4.76,11036,10.01,n
+GobStopper,3,w,adc,Ezreal,6,6,16,213,5.92,27038,24.52,n
+Xe0,3,w,mid,Ekko,21,7,13,228,6.34,35447,32.15,n
+asianhenry,4,l,adc,Miss Fortune,1,6,5,197,7.19,12416,18.11,n
+TheRealShimmy,4,l,jg,Hecarim,3,11,4,140,5.11,9658,14.09,y
+Bevo18,4,l,supp,Brand,5,5,3,49,1.79,14001,20.42,n
+Ohoii,4,l,mid,Galio,3,7,10,117,4.27,12620,18.41,n
+Taxmo,4,l,top,Ornn,4,7,5,185,6.75,19869,28.98,n
+GobStopper,4,w,adc,Ezreal,5,1,9,193,7.04,18194,21.50,n
+GF WONT SUPPORT,4,w,top,Renekton,4,4,8,221,8.06,13268,15.68,n
+Jjjajangmyeon,4,w,supp,Alistar,1,2,17,29,1.06,4906,5.80,n
+Xe0,4,w,jg,KhaZix,23,4,9,180,6.57,41940,49.57,n
+Knacked,4,w,mid,Nautilus,3,5,3,134,4.89,6303,7.45,n
+asianhenry,5,l,adc,Miss Fortune,1,6,8,206,6.19,19040,16.65,n
+Ass2Malph,5,l,jg,Jarvan IV,5,7,6,162,4.87,18688,16.34,n
+GF WONT SUPPORT,5,l,supp,Twitch,4,10,10,28,0.84,21551,18.84,y
+Xe0,5,l,top,Kennen,4,6,6,203,6.10,35293,30.86,n
+null,5,l,mid,Trundle,5,5,4,230,6.91,19810,17.32,n
+TheRealShimmy,5,w,jg,Sejuani,5,3,14,213,6.40,18752,16.61,n
+itssyumm,5,w,supp,Lulu,3,4,20,18,0.54,8441,7.48,n
+WhoopScoopPoop,5,w,mid,Neeko,7,5,4,193,5.80,24810,21.98,n
+Abusive Teemo,5,w,top,Nasus,4,5,6,183,5.50,11606,10.28,n
+CJ Effort,5,w,adc,Lucian,15,2,8,241,7.24,49291,43.66,n
+asianhenry,6,w,adc,Miss Fortune,13,2,5,219,6.62,13260,11.82,n
+TheRealShimmy,6,w,jg,Sejuani,9,1,19,226,6.83,23426,23.38,n
+itssyumm,6,w,top,Seraphine,4,4,17,174,5.26,13778,13.75,n
+Xe0,6,w,supp,Janna,4,11,26,45,1.36,11448,11.43,n
+GF WONT SUPPORT,6,w,mid,Katarina,25,5,17,197,5.95,50228,50.13,y
+PurelyLucky,6,l,supp,Lulu,0,13,3,24,0.73,5225,5.49,n
+Abusive Teemo,6,l,adc,Ezreal,4,9,2,211,6.38,22393,23.54,n
+TisPerfect,6,l,top,Ziggs,2,8,3,155,4.69,16027,16.85,n
+WhoopScoopPoop,6,l,mid,Yasuo,7,13,3,263,7.95,25018,26.30,n
+CJ Effort,6,l,jg,Olaf,10,12,4,181,5.47,26477,27.83,n

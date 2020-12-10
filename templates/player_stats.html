@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  
+  
+  <title>Inhouse Stats</title>
+  <link rel="shortcut icon" href="#">	
+ 
+  <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script   src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"   integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E="   crossorigin="anonymous"></script>
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+ <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+  <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
+  <link rel="stylesheet" type="text/css" href="./static/style-v1.css">
+
+  
+  
+
+ 
+
+</head>
+<body>
+
+<div id="header">
+        <h1><b>INHOUSE</b></h1>
+        <p id="desc">Inhouse Player Stats</p>
+    </div>
+
+<div class="container" style = 'padding: 10;'>
+  <div class="row">
+    <div class="col-sm-12 col-lg-4">
+	<br>
+      <h4 id = 'player_user_id'></h4>
+	  <br>
+<ul style="list-style-type:none; margin: 0; padding: 0;">
+  <li id = 'games'></li>
+  <li id = 'wins' ></li>
+ <li id = 'loss'></li>
+ <li id = 'wr'></li>
+ <li id = 'cs'></li>
+ <li id ='kda'></li>
+ <li id = 'fb'></li>
+ 
+</ul>
+    </div>
+	
+	 <div class="col-sm-12 col-lg-4">
+      
+	  
+	 
+	  <div id="champBar">
+
+  </div>
+</div>
+
+
+ <div class="col-sm-12 col-lg-4">
+      
+	  
+	 
+	  <div id="role-pie">
+
+  </div>
+</div>
+</div>
+
+
+<br>
+<br>
+<br>
+<div id="loginPage">
+	
+	<form action="/player_data" method = "POST">
+	<label for="player">Search Another Player:</label><br>
+	<input type="text" id="player_username" name="username"><br><br><br>
+	<input class="btn btn-primary btn-lg" type="submit" value="Submit">
+	</form>
+   
+     </div>
+
+
+
+
+
+
+
+
+	
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.9.1/d3.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script> 
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  
+  
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+   
+<script type="text/javascript">var player_stats = {{ player_dict | tojson }};</script>
+	 
+	 <script type="text/javascript" src="./static/player_stats.js"></script> 
+ 
+</body>
+</html>
