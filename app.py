@@ -37,7 +37,7 @@ def player_data():
         player_search = player_search.reset_index(drop=True)
         wins = list(player_search['w/l']).count('w')
         losses = list(player_search['w/l']).count('l')
-        win_pct = wins/(wins+losses)*100
+        win_pct = round(wins/(wins+losses)*100,2)
         champs = list(player_search['champ'])
         roles = list(player_search['role'])
         total_kda = round((sum(player_search['k'])+sum(player_search['a']))/sum(player_search['d']),2)
