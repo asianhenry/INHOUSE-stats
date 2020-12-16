@@ -8,7 +8,7 @@ var wr = player_stats['win_pct']
 var kda = player_stats['kda']
 var cs = player_stats['avg_cs']
 var fb = player_stats['first_bloods']
-var dmg_shar = player_stats['avg_dmg']
+var dmg_share = player_stats['avg_dmg']
 
 document.getElementById('player_user_id').innerHTML = `${id} player stats`;
 document.getElementById('games').innerHTML = `Games Played: ${games}`;
