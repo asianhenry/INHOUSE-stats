@@ -8,6 +8,7 @@ var wr = player_stats['win_pct']
 var kda = player_stats['kda']
 var cs = player_stats['avg_cs']
 var fb = player_stats['first_bloods']
+var dmg_shar = player_stats['avg_dmg']
 
 document.getElementById('player_user_id').innerHTML = `${id} player stats`;
 document.getElementById('games').innerHTML = `Games Played: ${games}`;
@@ -17,6 +18,7 @@ document.getElementById('wr').innerHTML = `Win Rate: ${wr}%`;
 document.getElementById('kda').innerHTML = `Total KDA: ${kda}`;
 document.getElementById('cs').innerHTML = `Average CS / min: ${cs}`;
 document.getElementById('fb').innerHTML = `First Bloods: ${fb}`;
+document.getElementById('dmg').innerHTML = `Average Damage Share: ${dmg_share}%`;
 
 
 // CHAMPION BAR CHART
